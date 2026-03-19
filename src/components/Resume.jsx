@@ -34,7 +34,7 @@ export default function Resume() {
           </p>
 
           <motion.a
-            href="/resume/Pranav_Chaudhari_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume/Pranav_Chaudhari_Resume.pdf`}
             download
             whileHover={{
               scale: 1.05,
